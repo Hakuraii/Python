@@ -59,7 +59,7 @@ def index():
 def computerslist():
     try:
         page = "<table style=\"border:1px solid #333;\"><thead><tr><th style=\"border:1px solid #333;\">Com ID</th><th style=\"border:1px solid #333;\">Com Name</th><th style=\"border:1px solid #333;\">Com Proxy</th></thead><tbody>"
-        con = MC.connect(host='vps796621.ovh.net', database='RemoteOCComponents', user='segach', password='Xavoupie1945')
+        con = MC.connect(host='xxxxx', database='RemoteOCComponents', user='xxxxx', password='xxxxx')
         cursor = con.cursor()
 
         query = 'SELECT * FROM Computers'
